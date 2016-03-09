@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzWithDependency", "QuartzWithDependancy\QuartzWithDependency.csproj", "{5C637626-F406-452B-95ED-5F5EF1CA240B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRepAndServices", "IRepository\IRepAndServices.csproj", "{49CED770-0A2E-46C3-A02C-E8852B712FA9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{D4C3D72D-DEFF-469A-84BB-1DE4CEDA80B6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{DEEF5775-8EB0-4C09-BEB2-CA17ED1AB0D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{2EF72B37-F60B-456D-9935-B9B0F90B68A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C637626-F406-452B-95ED-5F5EF1CA240B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C637626-F406-452B-95ED-5F5EF1CA240B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C637626-F406-452B-95ED-5F5EF1CA240B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C637626-F406-452B-95ED-5F5EF1CA240B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49CED770-0A2E-46C3-A02C-E8852B712FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49CED770-0A2E-46C3-A02C-E8852B712FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49CED770-0A2E-46C3-A02C-E8852B712FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49CED770-0A2E-46C3-A02C-E8852B712FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EF72B37-F60B-456D-9935-B9B0F90B68A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EF72B37-F60B-456D-9935-B9B0F90B68A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EF72B37-F60B-456D-9935-B9B0F90B68A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EF72B37-F60B-456D-9935-B9B0F90B68A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49CED770-0A2E-46C3-A02C-E8852B712FA9} = {D4C3D72D-DEFF-469A-84BB-1DE4CEDA80B6}
+		{2EF72B37-F60B-456D-9935-B9B0F90B68A4} = {DEEF5775-8EB0-4C09-BEB2-CA17ED1AB0D8}
+	EndGlobalSection
+EndGlobal

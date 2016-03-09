@@ -1,0 +1,73 @@
+﻿@model IEnumerable<QuartzWithDependancy.Models.JobsDetailViewModel>
+
+@{
+    ViewBag.Title = "ViewCurrentlyRunningJobs";
+}
+
+<h2>ViewCurrentlyRunningJobs</h2>
+
+<table>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.JobGroup)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JobName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.JobDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TriggerName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TriggerGroup)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TriggerTypeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.TriggerState)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NextFireTime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PreviousFireTime)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.JobGroup)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.JobName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.JobDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TriggerName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TriggerGroup)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TriggerTypeName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.TriggerState)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NextFireTime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PreviousFireTime)
+        </td>
+    </tr>
+}
+
+</table>

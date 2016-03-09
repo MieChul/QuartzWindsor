@@ -1,0 +1,15 @@
+﻿@model QuartzWithDependancy.Models.ReScheduleTime
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm("ReScheduleJoB", "Home"))
+{
+    @Html.Label("Enter Reschedule time:")
+    <p>
+        @Html.TextBoxFor(m=>m.time)
+    </p>
+    
+    <input type="submit" value="Reschedule" />
+}

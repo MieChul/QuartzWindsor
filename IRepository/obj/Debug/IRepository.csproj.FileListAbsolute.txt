@@ -1,0 +1,4 @@
+C:\Users\MRao\Documents\Visual Studio 2013\Projects\QuartzWithDependancy\IRepository\bin\Debug\IRepository.dll
+C:\Users\MRao\Documents\Visual Studio 2013\Projects\QuartzWithDependancy\IRepository\bin\Debug\IRepository.pdb
+C:\Users\MRao\Documents\Visual Studio 2013\Projects\QuartzWithDependancy\IRepository\obj\Debug\IRepository.dll
+C:\Users\MRao\Documents\Visual Studio 2013\Projects\QuartzWithDependancy\IRepository\obj\Debug\IRepository.pdb
